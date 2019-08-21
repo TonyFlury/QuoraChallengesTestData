@@ -1,0 +1,2 @@
+Create a file that takes two numbers and adds them together, returning the result.
+If either value is zero the result returned should be zero
