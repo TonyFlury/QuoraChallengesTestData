@@ -1,9 +1,0 @@
-Quora Python Beginners - Challenge 1
-====================================
-
-Create a function that takes two numbers and adds them together, returning the result.
-
-Constraints
------------
- - If either value is zero the result returned should be zero
- - If either value is negative the result should be zero
