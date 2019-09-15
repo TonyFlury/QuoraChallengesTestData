@@ -1,4 +1,6 @@
-The following is a fully set of test data for a the 'example_challenge'. The description is ::
+=================
+Example Challenge
+=================
 
     A function that takes two numbers as postional arguments and adds them together, returning the result.
 
