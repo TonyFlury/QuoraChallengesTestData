@@ -31,19 +31,19 @@ for index in range(400,500):
 # both a & b are zero
 data_set.append({'id':f'600', 'arguments':f'{a},{b}','return':'0'})
 
-# a is -ve int, b is +ve int
+# a is -ve int, b is +ve value
 for index in range(700,800):
-    a,b = random.randint(-1000,0), random.uniform(-1001,1000)
+    a,b = random.randint(-1000,0), random.uniform(1,1000)
     data_set.append({'id':f'{index:04}', 'arguments':f'{a},{b}','return':f'{0}'})
 
 # a is +ve int, b is  -e int
 for index in range(800,900):
-    b,a = random.randint(-1000,0), random.uniform(-1001,1000)
+    b,a = random.randint(-1000,0), random.uniform(1,1000)
     data_set.append({'id':f'{index:04}', 'arguments':f'{a},{b}','return':f'{0}'})
 
 # a is -ve int, b is  -e int
 for index in range(900,1000):
-    b,a = random.randint(-1000,0), random.uniform(-1001,0)
+    b,a = random.randint(-1000,0), random.uniform(-100,0)
     data_set.append({'id':f'{index:04}', 'arguments':f'{a},{b}','return':'0','raises':'ValueError'})
 
 with open('testdata.json', 'w') as json_fp:
