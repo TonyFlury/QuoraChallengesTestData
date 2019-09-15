@@ -42,7 +42,7 @@ for index in range(800,900):
     data_set.append({'id':f'{index:04}', 'arguments':f'{a},{b}','return':f'{0}'})
 
 # a is -ve int, b is  -e int
-for index in range(800,900):
+for index in range(900,1000):
     b,a = random.randint(-1000,0), random.uniform(-1001,0)
     data_set.append({'id':f'{index:04}', 'arguments':f'{a},{b}','return':'0','raises':'ValueError'})
 
