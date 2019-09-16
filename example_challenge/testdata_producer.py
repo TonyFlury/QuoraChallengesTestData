@@ -29,7 +29,7 @@ for index in range(400,500):
     data_set.append({'id':f'{index:04}', 'arguments':f'{a},{b}','return':'0'})
 
 # both a & b are zero
-data_set.append({'id':f'600', 'arguments':f'{a},{b}','return':'0'})
+data_set.append({'id':f'600', 'arguments':f'{0},{0}','return':'0'})
 
 # a is -ve int, b is +ve value
 for index in range(700,800):
