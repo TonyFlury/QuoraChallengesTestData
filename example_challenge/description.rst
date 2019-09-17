@@ -17,6 +17,3 @@ Exceptions
 ----------
 
     The Function is required to raise a ValueError exception when both arguments are negative.
-
-https://raw.githubusercontent.com/TonyFlury/QuoraChallengesTestData/master/example_challenge/description.rst
-https://raw.githubusercontent.com/TonyFlury/QuoraChallengesTestData/master/example_challenge/description.rst
