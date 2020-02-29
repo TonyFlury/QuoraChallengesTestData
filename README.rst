@@ -14,3 +14,5 @@ Published Challenges
     - 'sequence_and_count' : A follow on challenge to 'segment_counter' to provide data describing the segments in a string
 
     - 'run_length_encoder' : 3rd Challenge, to build on 'sequence_and_count' to make a simple run length encoder for strings
+
+    - 'stock_analysis' : 4th Challenge (1st in a new set) - given a series of prices, calculate the percentage gain/loss
