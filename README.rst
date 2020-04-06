@@ -15,4 +15,6 @@ Published Challenges
 
     - 'run_length_encoder' : 3rd Challenge, to build on 'sequence_and_count' to make a simple run length encoder for strings
 
-    - 'stock_analysis' : 4th Challenge (1st in a new set) - given a series of prices, calculate the percentage gain/loss
+    - 'stock_analysis' : 4th Challenge (1st in a new set) - given a series of prices, calculate the absolute gain/loss
+
+    - 'advanced_stock' : 5th challenge - building on stock analysis - calculate percentage gain/loss, and number of days growth.
