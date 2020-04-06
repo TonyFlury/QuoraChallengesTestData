@@ -17,17 +17,17 @@ Each entry in this 3-tuple is a 2-tuple in the following format:
 Where :
 
     - price gain/loss % - the price gain/loss expressed as a percentage rounded to 1 decimal place.
-    - growth days - the number of recorded days in the time period where the price for a given day is strictly higher
-    than the previous recorded day in that period. The first day of a period is NOT counted as a growth day.
-    Growth of 0 are not counted.
+    - growth days - the number of recorded days in the time period where the price for a given day is
+      strictly higher than the previous recorded day in that period.
+
+        - The first day of a period is NOT counted as a growth day for that period.
+        - Days with 0 growth are not counted.
 
 These 30, 60 and 90 day intervals are always calculated with reference to the date of the last entry - that is the 'last date'
 
 For example to calculate the 30 day price change, you need to find the 'last date', and then find the latest date
 in the sequence that is at least 30 days before the 'last date' - i.e. the difference between the date for the entry
 and the 'last date' >= 30. The increase or decrease is simply the difference between the two prices.
-
-
 
 Example
 -------
